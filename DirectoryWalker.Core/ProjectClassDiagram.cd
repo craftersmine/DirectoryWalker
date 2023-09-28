@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DirectoryWalker.Core.DirectoryEntry" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAMAAAAAAAgIQAAACEAAQBAAAAAAAACQAAAAAAAAA=</HashCode>
+      <FileName>DirectoryEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectoryWalker.Core.DirectoryMimeTypeInfo" Collapsed="true">
+    <Position X="8" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAAIAAEAAAA=</HashCode>
+      <FileName>DirectoryMimeTypeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectoryWalker.Core.DirectoryWalker" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEABAAAAEAAAIAAAAAQAgAAAACAECAAAAAYAAAAAA=</HashCode>
+      <FileName>DirectoryWalker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectoryWalker.Core.DirectoryWalkerProgressChanged" Collapsed="true">
+    <Position X="7.25" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEA=</HashCode>
+      <FileName>EventArguments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectoryWalker.Core.DirectoryWalkerCompleted" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>EventArguments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectoryWalker.Core.HtmlReporter" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAACAAAAAAIAAgAAAAAAAgAAAQAAQCAAAAAAAA=</HashCode>
+      <FileName>HtmlReporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.EventArgs" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="DirectoryWalker.Core.DirectoryEntryType" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DirectoryEntry.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

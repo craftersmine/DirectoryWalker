@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{$reportTitle}</title>
+        <style>
+            html {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            body {
+                margin: 0;
+                padding: 35px;
+            }
+
+            h1 {
+                font-size: 20pt;
+            }
+
+            h2 {
+                font-size: 16pt;
+            }
+
+            .report-summary {
+                background-color: #eee;
+                border-radius: 6px;
+                padding: 8px 16px;
+                box-shadow: #00000042 0px 3px 7px 0px;;
+            }
+
+            p {
+                margin: 0;
+                margin-bottom: 8px;
+            }
+
+            ul {
+                padding: 0;
+                margin: 0;
+            }
+
+            li {
+                list-style-type: none;
+            }
+
+            .mime-type-info {
+                margin-left: 16px;
+            }
+
+            summary {
+                margin-bottom: 8px;
+            }
+
+            .directory-entry {
+                margin-left: 16px;
+                padding-left: 8px;
+                list-style: '📁';
+            }
+
+            .file-entry {
+                display: grid;
+                grid-template-columns: 70% 15% 15%;
+            }
+
+            .file-entry-metadata {
+                text-align: right;
+                color: #aaa;
+            }
+        </style>
+    </head>
+    <html>
+        <h1>{$reportTitle}</h1>
+        <h2>Report summary</h2>
+        <div class="report-summary">
+            <p>Directory: {$directoryPath}</p>
+            <p>Total Size: {$totalSize}</p>
+            <p>Unique MimeTypes: {$uniqueMimeTypes}</p>
+        </div>
+        <h2>MimeTypes summary</h2>
+        <div class="report-summary">
+            <ul>
+                {$mimeTypesList}
+            </ul>
+        </div>
+        <h2>File Tree</h2>
+        <div class="report-summary">
+            <ul>
+                {$entries}
+            </ul>
+        </div>
+    </html>
+</html>

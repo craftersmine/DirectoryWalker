@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+Binaries.7z
+Sources.7z
+TestReport.html
